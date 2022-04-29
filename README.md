@@ -19,7 +19,7 @@ www.youtube.com/watch?v=uT6VQwXuxmA www.youtube.com/watch?v=vk-YaVO7vu4 www.yout
 
 Без ключа все ссылки обрабатываются на сервере в порядке очереди, при использовании ключа -async обработка происходит с помощью пула воркеров  
 
-www.youtube.com/watch?v=uT6VQwXuxmA www.youtube.com/watch?v=vk-YaVO7vu4 www.youtube.com/watch?v=fWK7Brkxgmg -async
+www.youtube.com/watch?v=uT6VQwXuxmA www.youtube.com/watch?v=vk-YaVO7vu4 www.youtube.com/watch?v=fWK7Brkxgmg --async
 
 Скачанные превью сохраняются в отдельной папке по адресу Test-Eshelon/Test/YoutubeClient/previews/
 
