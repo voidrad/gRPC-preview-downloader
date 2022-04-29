@@ -26,8 +26,8 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	log.Println("server started")
 	if err = s.Serve(l); err != nil {
 		log.Fatal(err)
 	}
+	log.Println("server started")
 }
