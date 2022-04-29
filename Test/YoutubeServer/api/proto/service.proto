@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package api;
+
+option go_package = "";
+
+service Getter {
+  rpc GetPreview(GetFileRequest) returns (GetFileResponse) {}
+}
+
+message GetFileRequest {
+  repeated string YoutubeLink = 1;
+  bool async = 2;
+}
+
+message GetFileResponse {
+  map<string, bytes> preview= 1;
+}
