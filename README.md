@@ -13,10 +13,14 @@ Test-Eshelon/Test/YoutubeClient/api/client/, в консоли с запущен
 ## Описание работы
 
 Клиент принимает в консоль ссылки на видеоролики на ютуде разделенные пробелами, !!без "https://"!!
+
+
 www.youtube.com/watch?v=uT6VQwXuxmA www.youtube.com/watch?v=vk-YaVO7vu4 www.youtube.com/watch?v=fWK7Brkxgmg  
 
 Без ключа все ссылки обрабатываются на сервере в порядке очереди, при использовании ключа -async обработка происходит с помощью пула воркеров  
+
 www.youtube.com/watch?v=uT6VQwXuxmA www.youtube.com/watch?v=vk-YaVO7vu4 www.youtube.com/watch?v=fWK7Brkxgmg -async
+
 Скачанные превью сохраняются в отдельной папке по адресу Test-Eshelon/Test/YoutubeClient/previews/
 
 Для кэширования уже запрашиваемых ранее превью используется sqlite, база данных находится по адресу  
